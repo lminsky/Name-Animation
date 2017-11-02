@@ -176,7 +176,7 @@ function drawS(x, y) {
   arc(0, -50, 100, 100, radians(90), radians(360));
   arc(0, 50, 100, 100, radians(-90), radians(180));  
 
-  strokeWeight(2);
+  strokeWeight(3);
   var dots = 50;
   stroke(255);
   for(var i = 0; i < dots; i++) {
