@@ -25,11 +25,10 @@ var s = {
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  var link = document.createElement('a');
-  link.href = 'http://www.louisminsky.com';
+  var link = document.getElementById("link");
   var canvas = document.getElementById("defaultCanvas0");
   console.log(link, canvas);
-  //link.appendChild(canvas);
+  link.appendChild(canvas);
   noFill();
 }
 
