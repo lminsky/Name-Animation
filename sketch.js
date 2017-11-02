@@ -28,7 +28,9 @@ function setup() {
   var link = document.createElement('a');
   link.href = 'http://www.louisminsky.com';
   //link.appendChild();
-  console.log(link, document.getElementById("defaultCanvas0"));
+  var canvas = document.getElementById("defaultCanvas0");
+  console.log(link, canvas);
+  link.appendChild(canvas);
   noFill();
 }
 
